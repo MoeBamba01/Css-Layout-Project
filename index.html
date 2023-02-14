@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/9cee12133d.js" crossorigin="anonymous"></script>
+    <title>Checkpoint Css & CssLayout</title>
+</head>
+<body>
+    <div class="navbar fixed-top" style="padding-left: 9%; padding-right: 9%;">
+        <div class="flex-start">
+            <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="logo" class="logo">
+        </div>
+        <div class="flex-end">
+            <a class="item activeItem" href="">About us</a>
+            <a class="item" href="">Career</a>
+            <a class="item" href="">Departments</a>
+        </div>
+    </div>
+    <section class="intro_section">
+        <img class="logo1" src="https://www.docplanner.com/img/sygnet.png" alt="docplannerLogo1">
+        <h1>Making the healthcare experience more human</h1>
+        <div class="d-flex justify-content-center" style="padding-left: 10%; padding-right: 10%;">   
+            <div class="col-6 text-wrap">
+                <p class="px-4">
+                   We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.
+                </p>
+            </div>
+            <div class="col-6 text-wrap">
+                <p class="px-4">
+                    We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="service_section mb-4">
+        <div class="d-flex justify-content-center">
+            <div class="col-3 mx-2 items-service greenDiv" style="background-color: #00ccb1;">
+                <div class="patients">
+                    <i class="fas fa-users" ></i>
+                    <div class="text">
+                        <h3>For patients</h3>
+                        <h4>Find a doctor, book a visit and solve any health-related doubt</h4>
+                    </div>
+                    <div class="chooseBox1" style="margin-top: 55%">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose country</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Czech">Czech</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Turkey">Turkey</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mx-2 items-service blueDiv" style="background-color: #3d83df;">
+                <div class="doctors">
+                    <i class="fas fa-user-nurse"></i>
+                    <div class="text">
+                        <h3>For doctors</h3>
+                        <h4>Save time managing visits and cut no-shows by half</h4>
+                    </div>
+                    <div class="chooseBox1" style="margin-top: 64%;">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose country</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Czech">Czech</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mx-2 items-service blackDiv" style="background-color: #1b2734;">
+                <div class="clinics">
+                    <i class="fas fa-hospital"></i>
+                    <div class="text">
+                        <h3>For clinics</h3>
+                        <h4>Deliver an exceptional patient experience in your clinic</h4>
+                    </div>
+                    <div class="chooseBox" style="margin-top: 32%">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>2 to 20 specialists</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Czech">Czech</option>
+                            <option value="Italy">Italy</option>
+                            <option  ption value="Mexico">Mexico</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Spain">Spain</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+                    </div>
+                    <div class="chooseBox1">
+                        <select class="form-select mt-4" aria-label="Default select example">
+                            <option selected>More than 20 specialists</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Czech">Czech</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Spain">Spain</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="entreprise_section">
+        <div class="d-inline-flex justify-content-between mt-4">
+            <div class="col-4" style="padding-left: 10%;">
+                <h3 style="color: #00b39b; margin-top: 20px;">
+                     We are a global <br>company<br>with local culture
+                </h3>
+            </div>
+            <div class="col-8 d-flex mt-4">
+                <div class="col-2">
+                    <img src="https://www.docplanner.com/logos/logo-jameda.svg" alt="jameda" class="image1 imgSection">
+                    <img src="https://www.docplanner.com/logos/logo-tuotempo.svg" alt="tuotempo" class=" image1 imgSection">
+                    <img src="res\logo-feegow.svg" alt="" class="imgSection">
+                </div>
+                <div class="col-2" style="margin-left: 7%;">
+                    <img src="https://www.docplanner.com/logos/logo-tuotempo.svg" alt="tuotempo" class="image1 imgSection">
+                    <img src="https://www.docplanner.com/logos/logo-jameda.svg" alt="jameda" class=" imgSection" style="margin-left: 3%;">
+                </div>
+                <div class="col-2 " style="margin-left:7%;">
+                    <img src="https://www.docplanner.com/logos/logo-tuotempo.svg" alt="jameda" class="">
+                    <img src="res\logo-gipo-primary.svg" alt="" style="width:30%; margin-top: 15%;">
+                </div>
+                <div class="col-2 ml-4" style="margin-left:7%;">
+                    <img src="https://www.docplanner.com/logos/logo-jameda.svg" alt="jameda" class="">
+                    <img src="res\logo-clinicloud.svg" alt="" style="width:50%; margin-top:10%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_stats" style="padding-left: 5%; padding-bottom: 25px;">
+        <div class="d-flex ">
+            <div class="col-4" style="margin-top: 60px;">
+                <div class="header">
+                    <h1>The world's biggest healthcare platform</h1>
+                    <p  style="padding-left: 15%; ">We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+                </div>
+            </div>
+            <div class="col-4 d-flex" style="margin-left: 10%; margin-top: 30px;">
+                <div class="col1 mt-3" style="margin-right: 15px;">
+                    <div class="col-4 grid_stats mb-4">
+                        <div class="mt-2">
+                            <img src="https://www.docplanner.com/img/flag.png" alt="flag" class="mb-4">
+                            <h3 class="stats">Leader in 13 countries</h3>
+                            <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+                        </div>
+                    </div>
+                    <div class="col-4 grid_stats ">
+                        <div class="mt-4">
+                            <img src="https://www.docplanner.com/img/patients.png" alt="Persons" class="mt-4 mb-4">
+                            <h3 class="stats">90,000,000 patients</h3>
+                            <p>visit our websites each month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="col-4 grid_stats mb-4">
+                        <div class="mt-2">
+                            <img src="https://www.docplanner.com/img/visits.png" alt="visits" class="mb-4">
+                            <h3 class="stats">15,000,000 appointments</h3>
+                            <p>booked last month</p>
+                        </div>
+                    </div>
+                    <div class="col-4 grid_stats ">
+                        <div class="mt-4">
+                            <img src="https://www.docplanner.com/img/doctors.png" alt="doctors" class="mt-4 mb-4">
+                            <h3 class="stats">210,000 active doctors</h3>
+                            <p>trust our solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="country_section">
+        <div class="headerCountry ">
+            <h1>Improve the lives of millions. Change yours forever.</h1>
+            <p>More than 2600 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
+        </div>
+        <div class="country">
+            <div class="d-flex d-flex d-flex justify-content-center">
+                    <div class="card col-2 mx-2" style="width: 19rem; ">
+                        <img src="https://www.docplanner.com/images/warsaw.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex justify-content-between ">
+                            <h5 class="card-title">Warsaw</h5>
+                            <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                        </div>
+                    </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/barcelona.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Barcelona</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/munich.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Munich</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center  mt-4">
+                <div class="card col-2 mx-2" style="width: 19rem; ">
+                    <img src="https://www.docplanner.com/images/istanbul.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Istanbul</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/rome.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Rome</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/bologna.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Bologna</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <div class="card col-2 mx-2" style="width: 19rem; ">
+                    <img src="https://www.docplanner.com/images/curitiba.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Curitiba</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/rio-janeiro.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Rio De Janeiro</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+                <div class="card col-2 mx-2" style="width: 19rem;">
+                    <img src="https://www.docplanner.com/images/mexico-city.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between ">
+                        <h5 class="card-title">Mexico City</h5>
+                        <a href="" class="btn btn-primary">SEE OPENINGS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="joinUs_section">
+        <div class="joinUs_text">
+            <h1 style="color:black">Sounds interesting? Join us now!</h1>
+            <a href="" class="btn_join">SEE ALL CURRENT OPENINGS</a>
+        </div>
+    </section>
+    <hr style="color: #ababab;">
+    <footer>
+        <div class="footer_content">
+            <p>We are leaders in 13 countries: Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile</p>
+            <p>This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.</p>
+            <a href="https://www.docplanner.com/" target_blank style="text-decoration: none; color: #747474;">www.docplanner.com © 2023</a>
+        </div>
+    </footer>
+</body>
+</html>
